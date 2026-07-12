@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T23:46:24.448Z",
+  "updatedAt": "2026-07-12T23:51:43.431Z",
   "plugins": [
     {
       "scope": "dune",
@@ -13,6 +13,7 @@
       "downloadUrl": null,
       "sha256": null,
       "jsrInstall": "jsr:@dune/plugin-admin@^1.1.0",
+      "jsrUrl": "https://jsr.io/@dune/plugin-admin",
       "githubUrl": "https://github.com/duneorg/plugin-admin",
       "source": "first-party"
     },
@@ -28,6 +29,7 @@
       "downloadUrl": null,
       "sha256": null,
       "jsrInstall": "jsr:@dune/plugin-inline-edit@^2.1.5",
+      "jsrUrl": "https://jsr.io/@dune/plugin-inline-edit",
       "githubUrl": "https://github.com/duneorg/plugin-inline-edit",
       "source": "first-party"
     },
@@ -43,6 +45,7 @@
       "downloadUrl": null,
       "sha256": null,
       "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/plugin-meilisearch",
       "githubUrl": "https://github.com/duneorg/plugin-meilisearch",
       "source": "first-party"
     },
@@ -58,6 +61,7 @@
       "downloadUrl": null,
       "sha256": null,
       "jsrInstall": "jsr:@dune/plugin-orama@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/plugin-orama",
       "githubUrl": "https://github.com/duneorg/plugin-orama",
       "source": "first-party"
     },
@@ -73,6 +77,7 @@
       "downloadUrl": null,
       "sha256": null,
       "jsrInstall": "jsr:@dune/plugin-pdf@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/plugin-pdf",
       "githubUrl": "https://github.com/duneorg/plugin-pdf",
       "source": "first-party"
     }

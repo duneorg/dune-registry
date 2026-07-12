@@ -48,6 +48,7 @@ interface RegistryEntry {
   downloadUrl: string | null;
   sha256: string | null;
   jsrInstall: string | null;
+  jsrUrl: string | null;
   githubUrl: string | null;
   source: "first-party" | "discovered";
 }
@@ -105,6 +106,7 @@ function toEntry(p: JsrPackage, source: "first-party" | "discovered"): RegistryE
     downloadUrl: null,
     sha256: null,
     jsrInstall: p.latestVersion ? `jsr:@${p.scope}/${p.name}@^${p.latestVersion}` : `jsr:@${p.scope}/${p.name}`,
+    jsrUrl: `https://jsr.io/@${p.scope}/${p.name}`,
     githubUrl: p.githubRepository
       ? `https://github.com/${p.githubRepository.owner}/${p.githubRepository.name}`
       : null,
@@ -165,6 +167,7 @@ async function buildThemes(scopePackages: JsrPackage[]): Promise<RegistryEntry[]
       downloadUrl: meta?.downloadUrl ?? null,
       sha256: meta?.sha256 || null,
       jsrInstall: p.latestVersion ? `jsr:@${p.scope}/${p.name}@^${p.latestVersion}` : `jsr:@${p.scope}/${p.name}`,
+      jsrUrl: `https://jsr.io/@${p.scope}/${p.name}`,
       githubUrl: p.githubRepository
         ? `https://github.com/${p.githubRepository.owner}/${p.githubRepository.name}`
         : `https://github.com/duneorg/dune-themes/tree/main/packages/theme-${slug}`,
