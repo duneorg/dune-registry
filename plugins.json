@@ -1,0 +1,80 @@
+{
+  "updatedAt": "2026-07-12T23:46:24.448Z",
+  "plugins": [
+    {
+      "scope": "dune",
+      "name": "plugin-admin",
+      "displayName": "@dune/plugin-admin",
+      "description": "Admin Plug-in for Dune CMS https://jsr.io/@dune/core (dune-plugin)",
+      "version": "1.1.0",
+      "tags": [],
+      "demoUrl": null,
+      "screenshotUrl": null,
+      "downloadUrl": null,
+      "sha256": null,
+      "jsrInstall": "jsr:@dune/plugin-admin@^1.1.0",
+      "githubUrl": "https://github.com/duneorg/plugin-admin",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "plugin-inline-edit",
+      "displayName": "@dune/plugin-inline-edit",
+      "description": "Plug-in providing inline content editing for Dune CMS https://jsr.io/@dune/core (dune-plugin)",
+      "version": "2.1.5",
+      "tags": [],
+      "demoUrl": null,
+      "screenshotUrl": null,
+      "downloadUrl": null,
+      "sha256": null,
+      "jsrInstall": "jsr:@dune/plugin-inline-edit@^2.1.5",
+      "githubUrl": "https://github.com/duneorg/plugin-inline-edit",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "plugin-meilisearch",
+      "displayName": "@dune/plugin-meilisearch",
+      "description": "Meilisearch-backed search engine for Dune CMS sites (dune-plugin)",
+      "version": "1.0.0",
+      "tags": [],
+      "demoUrl": null,
+      "screenshotUrl": null,
+      "downloadUrl": null,
+      "sha256": null,
+      "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.0.0",
+      "githubUrl": "https://github.com/duneorg/plugin-meilisearch",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "plugin-orama",
+      "displayName": "@dune/plugin-orama",
+      "description": "Orama-backed search engine for Dune CMS sites (dune-plugin)",
+      "version": "1.0.0",
+      "tags": [],
+      "demoUrl": null,
+      "screenshotUrl": null,
+      "downloadUrl": null,
+      "sha256": null,
+      "jsrInstall": "jsr:@dune/plugin-orama@^1.0.0",
+      "githubUrl": "https://github.com/duneorg/plugin-orama",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "plugin-pdf",
+      "displayName": "@dune/plugin-pdf",
+      "description": "PDF serving, text extraction, and viewer component for Dune CMS sites  (dune-plugin)",
+      "version": "1.0.0",
+      "tags": [],
+      "demoUrl": null,
+      "screenshotUrl": null,
+      "downloadUrl": null,
+      "sha256": null,
+      "jsrInstall": "jsr:@dune/plugin-pdf@^1.0.0",
+      "githubUrl": "https://github.com/duneorg/plugin-pdf",
+      "source": "first-party"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+name: Refresh registry
+
+on:
+  schedule:
+    # Once a day — see scripts/refresh-registry.ts's top comment for why
+    # this runs on a schedule instead of being queried live per-request.
+    - cron: "17 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Refresh plugins.json and themes.json
+        run: deno task refresh
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add plugins.json themes.json
+          git commit -m "chore: refresh registry"
+          git push

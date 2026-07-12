@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "refresh": "deno run --allow-net --allow-read --allow-write scripts/refresh-registry.ts"
+  }
+}
