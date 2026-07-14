@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-14T07:21:03.686Z",
+  "updatedAt": "2026-07-14T21:34:28.087Z",
   "themes": [
     {
       "scope": "dune",
       "name": "theme-caravan",
       "displayName": "Caravan",
-      "description": "",
-      "version": "1.1.0",
+      "description": "Caravan - an original Dune theme, design inspired by hugo-book — a clean documentation dune-theme.",
+      "version": "1.1.1",
       "tags": [
         "docs",
         "sidebar",
@@ -15,9 +15,49 @@
       "demoUrl": "https://themes.getdune.org/caravan",
       "screenshotUrl": "https://themes.getdune.org/caravan/themes/caravan/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/caravan-v1.1.1/caravan-1.1.1.zip",
-      "sha256": "b3087e8f658359cd45b95228124507bf3c0430c0cf1da656bed08c1bb9781455",
-      "jsrInstall": "jsr:@dune/theme-caravan@^1.1.0",
+      "sha256": "bbcd84891cfbefee9f0025ebd5c3ebb2ddf099f751ecc10576af775c08d72170",
+      "jsrInstall": "jsr:@dune/theme-caravan@^1.1.1",
       "jsrUrl": "https://jsr.io/@dune/theme-caravan",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-papermod",
+      "displayName": "PaperMod for Dune",
+      "description": "PaperMod for Dune - a faithful port of Hugo PaperMod to a dune-theme.",
+      "version": "1.0.1",
+      "tags": [
+        "blog",
+        "minimal",
+        "faithful"
+      ],
+      "demoUrl": "https://themes.getdune.org/papermod",
+      "screenshotUrl": "https://themes.getdune.org/papermod/themes/papermod/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/papermod-v1.0.1/papermod-1.0.1.zip",
+      "sha256": "9f954598541b913794c3f3631c1a8034bcc260beddd7a77edf291eaf7cbf4b83",
+      "jsrInstall": "jsr:@dune/theme-papermod@^1.0.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-papermod",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-sirocco",
+      "displayName": "Sirocco",
+      "description": "Sirocco - an original Dune theme, design inspired by hugo-PaperMod — a fast, minimalist blog dune-theme.",
+      "version": "1.1.1",
+      "tags": [
+        "blog",
+        "minimal",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/sirocco",
+      "screenshotUrl": "https://themes.getdune.org/sirocco/themes/sirocco/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/sirocco-v1.1.1/sirocco-1.1.1.zip",
+      "sha256": "c4712a3d00d0d287b4a94750773245b12a3a2997750eb0b4c5eed5c3e72690e8",
+      "jsrInstall": "jsr:@dune/theme-sirocco@^1.1.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-sirocco",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
     }
