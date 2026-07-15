@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T11:23:22.722Z",
+  "updatedAt": "2026-07-15T21:01:48.001Z",
   "themes": [
     {
       "scope": "dune",
@@ -46,7 +46,7 @@
       "name": "theme-sirocco",
       "displayName": "Sirocco",
       "description": "Sirocco - an original Dune theme, design inspired by hugo-PaperMod — a fast, minimalist blog dune-theme.",
-      "version": "1.1.1",
+      "version": "1.2.1",
       "tags": [
         "blog",
         "minimal",
@@ -56,7 +56,7 @@
       "screenshotUrl": "https://themes.getdune.org/sirocco/themes/sirocco/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/sirocco-v1.2.1/sirocco-1.2.1.zip",
       "sha256": "b348bdf6a04531dcbbdb4c19fc1960dd6f3c735cfc606915ea3d8a514a7fe559",
-      "jsrInstall": "jsr:@dune/theme-sirocco@^1.1.1",
+      "jsrInstall": "jsr:@dune/theme-sirocco@^1.2.1",
       "jsrUrl": "https://jsr.io/@dune/theme-sirocco",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
