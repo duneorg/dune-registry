@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T21:34:28.087Z",
+  "updatedAt": "2026-07-15T09:20:18.033Z",
   "themes": [
     {
       "scope": "dune",
@@ -54,8 +54,8 @@
       ],
       "demoUrl": "https://themes.getdune.org/sirocco",
       "screenshotUrl": "https://themes.getdune.org/sirocco/themes/sirocco/static/screenshot.png",
-      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/sirocco-v1.1.1/sirocco-1.1.1.zip",
-      "sha256": "c4712a3d00d0d287b4a94750773245b12a3a2997750eb0b4c5eed5c3e72690e8",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/sirocco-v1.2.0/sirocco-1.2.0.zip",
+      "sha256": "c680718ec638593ea5be47d35485d9f8dc13806b2662d12a73f5d7929187938e",
       "jsrInstall": "jsr:@dune/theme-sirocco@^1.1.1",
       "jsrUrl": "https://jsr.io/@dune/theme-sirocco",
       "githubUrl": "https://github.com/duneorg/dune-themes",
