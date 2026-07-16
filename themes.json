@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-15T21:01:48.001Z",
+  "updatedAt": "2026-07-16T06:08:46.438Z",
   "themes": [
     {
       "scope": "dune",
       "name": "theme-caravan",
       "displayName": "Caravan",
       "description": "Caravan - an original Dune theme, design inspired by hugo-book — a clean documentation dune-theme.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "tags": [
         "docs",
         "sidebar",
@@ -14,9 +14,9 @@
       ],
       "demoUrl": "https://themes.getdune.org/caravan",
       "screenshotUrl": "https://themes.getdune.org/caravan/themes/caravan/static/screenshot.png",
-      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/caravan-v1.1.1/caravan-1.1.1.zip",
-      "sha256": "bbcd84891cfbefee9f0025ebd5c3ebb2ddf099f751ecc10576af775c08d72170",
-      "jsrInstall": "jsr:@dune/theme-caravan@^1.1.1",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/caravan-v1.1.2/caravan-1.1.2.zip",
+      "sha256": "4d2b829566ee5a42d11a6599fd64f278dee6cf9146b848761504c2a21662cffa",
+      "jsrInstall": "jsr:@dune/theme-caravan@^1.1.2",
       "jsrUrl": "https://jsr.io/@dune/theme-caravan",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -26,7 +26,7 @@
       "name": "theme-papermod",
       "displayName": "PaperMod for Dune",
       "description": "PaperMod for Dune - a faithful port of Hugo PaperMod to a dune-theme.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "tags": [
         "blog",
         "minimal",
@@ -34,9 +34,9 @@
       ],
       "demoUrl": "https://themes.getdune.org/papermod",
       "screenshotUrl": "https://themes.getdune.org/papermod/themes/papermod/static/screenshot.png",
-      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/papermod-v1.0.1/papermod-1.0.1.zip",
-      "sha256": "9f954598541b913794c3f3631c1a8034bcc260beddd7a77edf291eaf7cbf4b83",
-      "jsrInstall": "jsr:@dune/theme-papermod@^1.0.1",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/papermod-v1.0.2/papermod-1.0.2.zip",
+      "sha256": "9b63be1d114d76fc8437e44a816d2d7c3d94f3100497bdb4b23cd863c0f8b1b2",
+      "jsrInstall": "jsr:@dune/theme-papermod@^1.0.2",
       "jsrUrl": "https://jsr.io/@dune/theme-papermod",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
