@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T07:32:34.673Z",
+  "updatedAt": "2026-07-16T08:05:18.165Z",
   "plugins": [
     {
       "scope": "dune",
@@ -70,13 +70,13 @@
       "name": "plugin-pdf",
       "displayName": "@dune/plugin-pdf",
       "description": "PDF serving, text extraction, and viewer component for Dune CMS sites  (dune-plugin)",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-pdf@^1.0.0",
+      "jsrInstall": "jsr:@dune/plugin-pdf@^1.1.0",
       "jsrUrl": "https://jsr.io/@dune/plugin-pdf",
       "githubUrl": "https://github.com/duneorg/plugin-pdf",
       "source": "first-party"
