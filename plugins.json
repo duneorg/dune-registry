@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T07:10:05.984Z",
+  "updatedAt": "2026-07-21T07:43:08.553Z",
   "plugins": [
     {
       "scope": "dune",
@@ -38,13 +38,13 @@
       "name": "plugin-meilisearch",
       "displayName": "@dune/plugin-meilisearch",
       "description": "Meilisearch-backed search engine for Dune CMS sites (dune-plugin)",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.0.1",
+      "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.1.0",
       "jsrUrl": "https://jsr.io/@dune/plugin-meilisearch",
       "githubUrl": "https://github.com/duneorg/plugin-meilisearch",
       "source": "first-party"
@@ -70,13 +70,13 @@
       "name": "plugin-pdf",
       "displayName": "@dune/plugin-pdf",
       "description": "PDF serving, text extraction, and viewer component for Dune CMS sites  (dune-plugin)",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-pdf@^1.1.0",
+      "jsrInstall": "jsr:@dune/plugin-pdf@^1.2.0",
       "jsrUrl": "https://jsr.io/@dune/plugin-pdf",
       "githubUrl": "https://github.com/duneorg/plugin-pdf",
       "source": "first-party"
