@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T07:43:08.553Z",
+  "updatedAt": "2026-07-21T14:42:22.156Z",
   "plugins": [
     {
       "scope": "dune",
@@ -38,13 +38,13 @@
       "name": "plugin-meilisearch",
       "displayName": "@dune/plugin-meilisearch",
       "description": "Meilisearch-backed search engine for Dune CMS sites (dune-plugin)",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.1.0",
+      "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.2.0",
       "jsrUrl": "https://jsr.io/@dune/plugin-meilisearch",
       "githubUrl": "https://github.com/duneorg/plugin-meilisearch",
       "source": "first-party"
