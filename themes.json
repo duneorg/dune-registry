@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-07-16T06:08:46.438Z",
+  "updatedAt": "2026-07-22T22:22:37.619Z",
   "themes": [
+    {
+      "scope": "dune",
+      "name": "theme-blox",
+      "displayName": "Hugo Blox for Dune",
+      "description": "Hugo Blox for Dune - a faithful port of Hugo Blox to a dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "landing",
+        "academic",
+        "faithful"
+      ],
+      "demoUrl": "https://themes.getdune.org/blox",
+      "screenshotUrl": "https://themes.getdune.org/blox/themes/blox/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/blox-v1.0.0/blox-1.0.0.zip",
+      "sha256": "7fd69e67d43a58721cd7ecabd80ec53f246e926c32c8d1f8eb82e7e5b38a800d",
+      "jsrInstall": "jsr:@dune/theme-blox@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-blox",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-book",
+      "displayName": "Hugo Book for Dune",
+      "description": "Hugo Book for Dune - a faithful port of Hugo Book to a dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "docs",
+        "sidebar",
+        "faithful"
+      ],
+      "demoUrl": "https://themes.getdune.org/book",
+      "screenshotUrl": "https://themes.getdune.org/book/themes/book/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/book-v1.0.0/book-1.0.0.zip",
+      "sha256": "2ea379f88227507f8af33ca2389eaa8679d510ef8c8412db0034cbdf82687dab",
+      "jsrInstall": "jsr:@dune/theme-book@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-book",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
     {
       "scope": "dune",
       "name": "theme-caravan",
@@ -18,6 +58,183 @@
       "sha256": "4d2b829566ee5a42d11a6599fd64f278dee6cf9146b848761504c2a21662cffa",
       "jsrInstall": "jsr:@dune/theme-caravan@^1.1.2",
       "jsrUrl": "https://jsr.io/@dune/theme-caravan",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-dune-minimal",
+      "displayName": "@dune/theme-dune-minimal",
+      "description": "Minimal - a Dune base theme, which any other dune-theme can optionally inherit from.",
+      "version": "1.0.0",
+      "tags": [],
+      "demoUrl": null,
+      "screenshotUrl": null,
+      "downloadUrl": null,
+      "sha256": null,
+      "jsrInstall": "jsr:@dune/theme-dune-minimal@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-dune-minimal",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-fennec",
+      "displayName": "Fennec",
+      "description": "Fennec - an original Dune theme, design inspired by Astrofy — a personal portfolio and blog dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "portfolio",
+        "personal",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/fennec",
+      "screenshotUrl": "https://themes.getdune.org/fennec/themes/fennec/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/fennec-v1.0.0/fennec-1.0.0.zip",
+      "sha256": "59a310c693e60ed40b6a620ce8dbea00bdd76538238fc421c55083546e60ce56",
+      "jsrInstall": "jsr:@dune/theme-fennec@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-fennec",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-gale",
+      "displayName": "Gale",
+      "description": "Gale - an original Dune theme, design inspired by AstroWind — a landing and blog dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "landing",
+        "business",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/gale",
+      "screenshotUrl": "https://themes.getdune.org/gale/themes/gale/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/gale-v1.0.0/gale-1.0.0.zip",
+      "sha256": "d516f18a323c18e1eae6a87b54d1c5f23008c1a24155883efe7b14c14d7e50bf",
+      "jsrInstall": "jsr:@dune/theme-gale@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-gale",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-herald",
+      "displayName": "Herald",
+      "description": "Herald - an original Dune theme, design inspired by Ghost Casper — a publication-style blog dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "blog",
+        "publication",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/herald",
+      "screenshotUrl": "https://themes.getdune.org/herald/themes/herald/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/herald-v1.0.0/herald-1.0.0.zip",
+      "sha256": "ce335f0070647f3c11b27e98b8f4ef8fe1013dd30b6665e011f0374a22a55a9b",
+      "jsrInstall": "jsr:@dune/theme-herald@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-herald",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-ink",
+      "displayName": "Ink",
+      "description": "Ink - an original Dune theme, design inspired by Ghost Attila — a long-form writing dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "blog",
+        "writing",
+        "serif",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/ink",
+      "screenshotUrl": "https://themes.getdune.org/ink/themes/ink/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/ink-v1.0.0/ink-1.0.0.zip",
+      "sha256": "3828974dd20267e4f2c34eb7d51788edd4916f7c389838fa20b94b44d469f213",
+      "jsrInstall": "jsr:@dune/theme-ink@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-ink",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-lucid",
+      "displayName": "Lucid",
+      "description": "Lucid - an original Dune theme, design inspired by Hugo Hextra — a modern docs dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "docs",
+        "modern",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/lucid",
+      "screenshotUrl": "https://themes.getdune.org/lucid/themes/lucid/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/lucid-v1.0.0/lucid-1.0.0.zip",
+      "sha256": "da9787cb77fd2fa7403060be4afcb9414e682cfdc995ded3dfcc62661cf2f909",
+      "jsrInstall": "jsr:@dune/theme-lucid@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-lucid",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-manual",
+      "displayName": "Manual",
+      "description": "Manual - an original Dune theme, design inspired by Just the Docs — a product documentation dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "docs",
+        "product",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/manual",
+      "screenshotUrl": "https://themes.getdune.org/manual/themes/manual/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/manual-v1.0.0/manual-1.0.0.zip",
+      "sha256": "7aaeb7a3d808ec101abaddc657c2af4b9c2a251e34a867b4bd235bd75956f7a2",
+      "jsrInstall": "jsr:@dune/theme-manual@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-manual",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-nightfall",
+      "displayName": "Nightfall",
+      "description": "Nightfall - an original Dune theme, design inspired by Astro Starlight — a dark-first documentation dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "docs",
+        "dark",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/nightfall",
+      "screenshotUrl": "https://themes.getdune.org/nightfall/themes/nightfall/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/nightfall-v1.0.0/nightfall-1.0.0.zip",
+      "sha256": "5e8cc18c9cdcf5f87a7ef4d727364e4a311603e79d4c614349f339ccfdfddf6c",
+      "jsrInstall": "jsr:@dune/theme-nightfall@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-nightfall",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-oasis",
+      "displayName": "Oasis",
+      "description": "Oasis - an original Dune theme, design inspired by Hugo Blox — a landing and academic résumé dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "landing",
+        "academic",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/oasis",
+      "screenshotUrl": "https://themes.getdune.org/oasis/themes/oasis/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/oasis-v1.0.0/oasis-1.0.0.zip",
+      "sha256": "9581b737cc92f967c74d0e5f3b26c3c4dcd69ea11dcc1b0097ee297401f5489f",
+      "jsrInstall": "jsr:@dune/theme-oasis@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-oasis",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
     },
@@ -43,6 +260,26 @@
     },
     {
       "scope": "dune",
+      "name": "theme-salon",
+      "displayName": "Salon",
+      "description": "Salon - an original Dune theme, design inspired by Ghost Liebling — a magazine-style blog dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "blog",
+        "magazine",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/salon",
+      "screenshotUrl": "https://themes.getdune.org/salon/themes/salon/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/salon-v1.0.0/salon-1.0.0.zip",
+      "sha256": "6e9c816526d4fcb48f1a3791bb87509cf462ffad4035acdba61d839c3be8953e",
+      "jsrInstall": "jsr:@dune/theme-salon@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-salon",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
       "name": "theme-sirocco",
       "displayName": "Sirocco",
       "description": "Sirocco - an original Dune theme, design inspired by hugo-PaperMod — a fast, minimalist blog dune-theme.",
@@ -58,6 +295,46 @@
       "sha256": "b348bdf6a04531dcbbdb4c19fc1960dd6f3c735cfc606915ea3d8a514a7fe559",
       "jsrInstall": "jsr:@dune/theme-sirocco@^1.2.1",
       "jsrUrl": "https://jsr.io/@dune/theme-sirocco",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-starlight",
+      "displayName": "Starlight for Dune",
+      "description": "Starlight for Dune - a faithful port of Astro Starlight to a dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "docs",
+        "modern",
+        "faithful"
+      ],
+      "demoUrl": "https://themes.getdune.org/starlight",
+      "screenshotUrl": "https://themes.getdune.org/starlight/themes/starlight/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/starlight-v1.0.0/starlight-1.0.0.zip",
+      "sha256": "34b73a742a095118229ac3e63c08a313235406045f4a611550d352c29d2954bd",
+      "jsrInstall": "jsr:@dune/theme-starlight@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-starlight",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-syntax",
+      "displayName": "Syntax",
+      "description": "Syntax - an original Dune theme, design inspired by Jekyll Chirpy — a technical blog dune-theme.",
+      "version": "1.0.0",
+      "tags": [
+        "blog",
+        "tech",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/syntax",
+      "screenshotUrl": "https://themes.getdune.org/syntax/themes/syntax/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/syntax-v1.0.0/syntax-1.0.0.zip",
+      "sha256": "e485cf206f7bd9a71855d89dd4de149174f121857307d1bcf9bdb7e5f4d86dd9",
+      "jsrInstall": "jsr:@dune/theme-syntax@^1.0.0",
+      "jsrUrl": "https://jsr.io/@dune/theme-syntax",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
     }
