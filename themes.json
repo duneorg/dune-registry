@@ -1,6 +1,106 @@
 {
-  "updatedAt": "2026-07-22T22:22:37.619Z",
+  "updatedAt": "2026-07-25T07:28:44.403Z",
   "themes": [
+    {
+      "scope": "dune",
+      "name": "theme-aerial",
+      "displayName": "Aerial",
+      "description": "Aerial for Dune - a port of HTML5 UP Aerial — a fullscreen landing dune-theme.",
+      "version": "1.0.1",
+      "tags": [
+        "html5up",
+        "landing",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/aerial",
+      "screenshotUrl": "https://themes.getdune.org/aerial/themes/aerial/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/aerial-v1.0.0/aerial-1.0.0.zip",
+      "sha256": "8b5150ca8212d92ef71c971c5de790920c6163d575b691b4eaecab506b0d8c62",
+      "jsrInstall": "jsr:@dune/theme-aerial@^1.0.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-aerial",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-alpha",
+      "displayName": "Alpha",
+      "description": "Alpha for Dune - a port of HTML5 UP Alpha — a business landing dune-theme.",
+      "version": "1.0.1",
+      "tags": [
+        "html5up",
+        "landing",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/alpha",
+      "screenshotUrl": "https://themes.getdune.org/alpha/themes/alpha/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/alpha-v1.0.0/alpha-1.0.0.zip",
+      "sha256": "41ba36499ec3f61d83d708cd2e6e7de09e792c3b5faae53036b8759767ce6b49",
+      "jsrInstall": "jsr:@dune/theme-alpha@^1.0.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-alpha",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-arcana",
+      "displayName": "Arcana",
+      "description": "Arcana for Dune - a port of HTML5 UP Arcana — a corporate landing dune-theme.",
+      "version": "1.0.1",
+      "tags": [
+        "html5up",
+        "landing",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/arcana",
+      "screenshotUrl": "https://themes.getdune.org/arcana/themes/arcana/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/arcana-v1.0.0/arcana-1.0.0.zip",
+      "sha256": "9df3ea7d7cd0f694a93944284e598d152340b0c40ad3bc7eaf1bc386c4b64fa6",
+      "jsrInstall": "jsr:@dune/theme-arcana@^1.0.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-arcana",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-astral",
+      "displayName": "Astral",
+      "description": "Astral for Dune - a port of HTML5 UP Astral — an icon-nav portfolio dune-theme.",
+      "version": "1.0.1",
+      "tags": [
+        "html5up",
+        "portfolio",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/astral",
+      "screenshotUrl": "https://themes.getdune.org/astral/themes/astral/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/astral-v1.0.0/astral-1.0.0.zip",
+      "sha256": "a6f0d724408b39754073a0f35dccf8c55245a71eec8f123f8f5178a4f4043a18",
+      "jsrInstall": "jsr:@dune/theme-astral@^1.0.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-astral",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-big-picture",
+      "displayName": "Big Picture",
+      "description": "Big Picture for Dune - a port of HTML5 UP Big Picture — a scroll-driven gallery landing dune-theme.",
+      "version": "1.0.1",
+      "tags": [
+        "html5up",
+        "landing",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/big-picture",
+      "screenshotUrl": "https://themes.getdune.org/big-picture/themes/big-picture/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/big-picture-v1.0.0/big-picture-1.0.0.zip",
+      "sha256": "8d8539a3d91709ea323566e734218db3658f173084dc9e3f4e91ad6bf589a670",
+      "jsrInstall": "jsr:@dune/theme-big-picture@^1.0.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-big-picture",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
     {
       "scope": "dune",
       "name": "theme-blox",
@@ -58,6 +158,26 @@
       "sha256": "4d2b829566ee5a42d11a6599fd64f278dee6cf9146b848761504c2a21662cffa",
       "jsrInstall": "jsr:@dune/theme-caravan@^1.1.2",
       "jsrUrl": "https://jsr.io/@dune/theme-caravan",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-dimension",
+      "displayName": "Dimension",
+      "description": "Dimension for Dune - a port of HTML5 UP Dimension — a modal panel landing dune-theme.",
+      "version": "1.0.1",
+      "tags": [
+        "html5up",
+        "landing",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/dimension",
+      "screenshotUrl": "https://themes.getdune.org/dimension/themes/dimension/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/dimension-v1.0.0/dimension-1.0.0.zip",
+      "sha256": "763c2b24a8d96c530e529740d7f57aad0599e19cca7e5a19ae81de56e4a78192",
+      "jsrInstall": "jsr:@dune/theme-dimension@^1.0.1",
+      "jsrUrl": "https://jsr.io/@dune/theme-dimension",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
     },
