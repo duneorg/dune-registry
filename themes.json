@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T07:28:44.403Z",
+  "updatedAt": "2026-08-01T07:38:01.672Z",
   "themes": [
     {
       "scope": "dune",
@@ -219,6 +219,26 @@
     },
     {
       "scope": "dune",
+      "name": "theme-forty",
+      "displayName": "Forty",
+      "description": "",
+      "version": null,
+      "tags": [
+        "html5up",
+        "landing",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/forty",
+      "screenshotUrl": "https://themes.getdune.org/forty/themes/forty/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/forty-v1.0.0/forty-1.0.0.zip",
+      "sha256": "d7cf45dd962c1abba6949c4db6b3320b6b23aee3fda8dcbdb0236f14db4e53a8",
+      "jsrInstall": "jsr:@dune/theme-forty",
+      "jsrUrl": "https://jsr.io/@dune/theme-forty",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
       "name": "theme-gale",
       "displayName": "Gale",
       "description": "Gale - an original Dune theme, design inspired by AstroWind — a landing and blog dune-theme.",
@@ -380,6 +400,26 @@
     },
     {
       "scope": "dune",
+      "name": "theme-photon",
+      "displayName": "Photon",
+      "description": "Photon for Dune - a port of HTML5 UP Photon — a single-page portfolio dune-theme.",
+      "version": null,
+      "tags": [
+        "html5up",
+        "portfolio",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/photon",
+      "screenshotUrl": "https://themes.getdune.org/photon/themes/photon/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/photon-v1.0.0/photon-1.0.0.zip",
+      "sha256": "d03de5866fdb4ca9dbe5a7b5384ad21d7926c9b07cf1fa37a441d25fbd597b28",
+      "jsrInstall": "jsr:@dune/theme-photon",
+      "jsrUrl": "https://jsr.io/@dune/theme-photon",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
       "name": "theme-salon",
       "displayName": "Salon",
       "description": "Salon - an original Dune theme, design inspired by Ghost Liebling — a magazine-style blog dune-theme.",
@@ -435,6 +475,26 @@
       "sha256": "34b73a742a095118229ac3e63c08a313235406045f4a611550d352c29d2954bd",
       "jsrInstall": "jsr:@dune/theme-starlight@^1.0.0",
       "jsrUrl": "https://jsr.io/@dune/theme-starlight",
+      "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-striped",
+      "displayName": "Striped",
+      "description": "Striped for Dune - a port of HTML5 UP Striped — a responsive sidebar blog dune-theme.",
+      "version": null,
+      "tags": [
+        "html5up",
+        "blog",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/striped",
+      "screenshotUrl": "https://themes.getdune.org/striped/themes/striped/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/striped-v1.0.0/striped-1.0.0.zip",
+      "sha256": "7d5bd2c1fac2dc298fbf7eaf8dd03a8cfe1cca88bc7e755a1ec891da2d394421",
+      "jsrInstall": "jsr:@dune/theme-striped",
+      "jsrUrl": "https://jsr.io/@dune/theme-striped",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
     },
