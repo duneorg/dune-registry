@@ -150,11 +150,24 @@ async function buildThemes(scopePackages: JsrPackage[]): Promise<RegistryEntry[]
     // Enrichment is optional — a live JSR theme still gets listed (with
     // less metadata) even if this fetch fails.
   }
-  const bySlug = new Map((themesRegistry.themes ?? []).map((t: any) => [t.slug, t]));
+  // Keyed by the *actual JSR package name* (from dune-themes/registry.json's
+  // own "jsr" field), not by slug-with-prefix-stripped — a theme.yaml/deno.json
+  // name and its directory slug can diverge when the full "theme-{slug}" name
+  // would exceed JSR's 20-character package-name limit (e.g. directory
+  // "escape-velocity" publishes as the package "theme-escape-vel"). Matching
+  // by slug alone silently drops enrichment for exactly those themes. Falls
+  // back to the slug-derived name for entries with no (or a malformed) "jsr"
+  // field, which still covers the common case where name and slug agree.
+  const byPackageName = new Map(
+    (themesRegistry.themes ?? []).map((t: any) => {
+      const pkgName = t.jsr?.match(/^jsr:@[^/]+\/([^@]+)@/)?.[1] ?? `theme-${t.slug}`;
+      return [pkgName, t];
+    }),
+  );
 
   const firstParty: RegistryEntry[] = liveThemePackages.map((p) => {
     const slug = p.name.replace(/^theme-/, "");
-    const meta = bySlug.get(slug);
+    const meta = byPackageName.get(p.name);
     return {
       scope: p.scope,
       name: p.name,
