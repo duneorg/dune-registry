@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-02T07:41:13.659Z",
+  "updatedAt": "2026-08-02T12:02:24.042Z",
   "themes": [
     {
       "scope": "dune",
       "name": "theme-aerial",
       "displayName": "Aerial",
       "description": "Aerial for Dune - a port of HTML5 UP Aerial — a fullscreen landing dune-theme.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "tags": [
         "html5up",
         "landing",
@@ -16,7 +16,7 @@
       "screenshotUrl": "https://themes.getdune.org/aerial/themes/aerial/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/aerial-v1.0.2/aerial-1.0.2.zip",
       "sha256": "b656cead531d900e5fb8cf58ecbf407f6d90445befd9dfec315cbf8e7333d0a1",
-      "jsrInstall": "jsr:@dune/theme-aerial@^1.0.1",
+      "jsrInstall": "jsr:@dune/theme-aerial@^1.0.2",
       "jsrUrl": "https://jsr.io/@dune/theme-aerial",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -26,7 +26,7 @@
       "name": "theme-alpha",
       "displayName": "Alpha",
       "description": "Alpha for Dune - a port of HTML5 UP Alpha — a business landing dune-theme.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "tags": [
         "html5up",
         "landing",
@@ -34,9 +34,9 @@
       ],
       "demoUrl": "https://themes.getdune.org/alpha",
       "screenshotUrl": "https://themes.getdune.org/alpha/themes/alpha/static/screenshot.png",
-      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/alpha-v1.0.1/alpha-1.0.1.zip",
-      "sha256": "41ba36499ec3f61d83d708cd2e6e7de09e792c3b5faae53036b8759767ce6b49",
-      "jsrInstall": "jsr:@dune/theme-alpha@^1.0.1",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/alpha-v1.0.2/alpha-1.0.2.zip",
+      "sha256": "c8bef4fb00e28a2df65c1ede19f67514673b09a67a59c698fd72a6d207b6133a",
+      "jsrInstall": "jsr:@dune/theme-alpha@^1.0.2",
       "jsrUrl": "https://jsr.io/@dune/theme-alpha",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -46,7 +46,7 @@
       "name": "theme-arcana",
       "displayName": "Arcana",
       "description": "Arcana for Dune - a port of HTML5 UP Arcana — a corporate landing dune-theme.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "tags": [
         "html5up",
         "landing",
@@ -56,7 +56,7 @@
       "screenshotUrl": "https://themes.getdune.org/arcana/themes/arcana/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/arcana-v1.0.2/arcana-1.0.2.zip",
       "sha256": "473d320a3e35a033784f5ef59a866cd862df1d91a76de798e3f92be7a50a19d5",
-      "jsrInstall": "jsr:@dune/theme-arcana@^1.0.1",
+      "jsrInstall": "jsr:@dune/theme-arcana@^1.0.2",
       "jsrUrl": "https://jsr.io/@dune/theme-arcana",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -66,7 +66,7 @@
       "name": "theme-astral",
       "displayName": "Astral",
       "description": "Astral for Dune - a port of HTML5 UP Astral — an icon-nav portfolio dune-theme.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "tags": [
         "html5up",
         "portfolio",
@@ -76,7 +76,7 @@
       "screenshotUrl": "https://themes.getdune.org/astral/themes/astral/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/astral-v1.0.2/astral-1.0.2.zip",
       "sha256": "345713de796d2b9d5f0ccc880446dc7e2058a42503edcc5e435b9ad186358111",
-      "jsrInstall": "jsr:@dune/theme-astral@^1.0.1",
+      "jsrInstall": "jsr:@dune/theme-astral@^1.0.2",
       "jsrUrl": "https://jsr.io/@dune/theme-astral",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -86,7 +86,7 @@
       "name": "theme-big-picture",
       "displayName": "Big Picture",
       "description": "Big Picture for Dune - a port of HTML5 UP Big Picture — a scroll-driven gallery landing dune-theme.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "tags": [
         "html5up",
         "landing",
@@ -96,7 +96,7 @@
       "screenshotUrl": "https://themes.getdune.org/big-picture/themes/big-picture/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/big-picture-v1.0.2/big-picture-1.0.2.zip",
       "sha256": "0ade1196719b53c05cbe9ff748a6acba9fc59acb3afbfec0ebc217bb4d31dce5",
-      "jsrInstall": "jsr:@dune/theme-big-picture@^1.0.1",
+      "jsrInstall": "jsr:@dune/theme-big-picture@^1.0.2",
       "jsrUrl": "https://jsr.io/@dune/theme-big-picture",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -106,7 +106,7 @@
       "name": "theme-blox",
       "displayName": "Hugo Blox for Dune",
       "description": "Hugo Blox for Dune - a faithful port of Hugo Blox to a dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "landing",
         "academic",
@@ -116,7 +116,7 @@
       "screenshotUrl": "https://themes.getdune.org/blox/themes/blox/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/blox-v1.0.1/blox-1.0.1.zip",
       "sha256": "d887254a86fbc263b70270bb3645464d6e9b55bcc17f0b3cafcbfeef98866bbf",
-      "jsrInstall": "jsr:@dune/theme-blox@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-blox@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-blox",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -126,7 +126,7 @@
       "name": "theme-book",
       "displayName": "Hugo Book for Dune",
       "description": "Hugo Book for Dune - a faithful port of Hugo Book to a dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "docs",
         "sidebar",
@@ -136,7 +136,7 @@
       "screenshotUrl": "https://themes.getdune.org/book/themes/book/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/book-v1.0.1/book-1.0.1.zip",
       "sha256": "ab5a1c951fbd46a0710d598ef233827671b5fc2dc9260e11247cd23b9c1e85e3",
-      "jsrInstall": "jsr:@dune/theme-book@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-book@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-book",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -146,7 +146,7 @@
       "name": "theme-caravan",
       "displayName": "Caravan",
       "description": "Caravan - an original Dune theme, design inspired by hugo-book — a clean documentation dune-theme.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "tags": [
         "docs",
         "sidebar",
@@ -156,7 +156,7 @@
       "screenshotUrl": "https://themes.getdune.org/caravan/themes/caravan/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/caravan-v1.1.3/caravan-1.1.3.zip",
       "sha256": "eeb5129a0159bd5fd02cee733b2b6c3c6b054a8e4337586ffab6277dd188db8d",
-      "jsrInstall": "jsr:@dune/theme-caravan@^1.1.2",
+      "jsrInstall": "jsr:@dune/theme-caravan@^1.1.3",
       "jsrUrl": "https://jsr.io/@dune/theme-caravan",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -166,7 +166,7 @@
       "name": "theme-dimension",
       "displayName": "Dimension",
       "description": "Dimension for Dune - a port of HTML5 UP Dimension — a modal panel landing dune-theme.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "tags": [
         "html5up",
         "landing",
@@ -176,7 +176,7 @@
       "screenshotUrl": "https://themes.getdune.org/dimension/themes/dimension/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/dimension-v1.0.2/dimension-1.0.2.zip",
       "sha256": "39eca88eaa714194fe12979ea6f236fef1650d73a6bfe8729abe2e8f1a2d9ded",
-      "jsrInstall": "jsr:@dune/theme-dimension@^1.0.1",
+      "jsrInstall": "jsr:@dune/theme-dimension@^1.0.2",
       "jsrUrl": "https://jsr.io/@dune/theme-dimension",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -202,7 +202,7 @@
       "name": "theme-editorial",
       "displayName": "Editorial",
       "description": "Editorial for Dune - a port of HTML5 UP Editorial — a magazine layout with sidebar dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "blog",
@@ -212,7 +212,7 @@
       "screenshotUrl": "https://themes.getdune.org/editorial/themes/editorial/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/editorial-v1.0.1/editorial-1.0.1.zip",
       "sha256": "a2d417dbb6ab57cf2643238b4270ee2d994e5d8046578d45940dab552e125850",
-      "jsrInstall": "jsr:@dune/theme-editorial",
+      "jsrInstall": "jsr:@dune/theme-editorial@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-editorial",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -222,7 +222,7 @@
       "name": "theme-fennec",
       "displayName": "Fennec",
       "description": "Fennec - an original Dune theme, design inspired by Astrofy — a personal portfolio and blog dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "portfolio",
         "personal",
@@ -232,7 +232,7 @@
       "screenshotUrl": "https://themes.getdune.org/fennec/themes/fennec/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/fennec-v1.0.1/fennec-1.0.1.zip",
       "sha256": "5c3fd3d5e1c11bbceb60f33cad34bc9860cd978f030c1e960c98cca60915fc71",
-      "jsrInstall": "jsr:@dune/theme-fennec@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-fennec@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-fennec",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -242,7 +242,7 @@
       "name": "theme-forty",
       "displayName": "Forty",
       "description": "",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -252,7 +252,7 @@
       "screenshotUrl": "https://themes.getdune.org/forty/themes/forty/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/forty-v1.0.1/forty-1.0.1.zip",
       "sha256": "2878943bfbce72e9d7111eaed6192846f3ed05690b00381e5eea73d5a3ba7107",
-      "jsrInstall": "jsr:@dune/theme-forty",
+      "jsrInstall": "jsr:@dune/theme-forty@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-forty",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -262,7 +262,7 @@
       "name": "theme-fractal",
       "displayName": "Fractal",
       "description": "Fractal for Dune - a port of HTML5 UP Fractal — a phone hero portfolio dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "portfolio",
@@ -272,7 +272,7 @@
       "screenshotUrl": "https://themes.getdune.org/fractal/themes/fractal/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/fractal-v1.0.1/fractal-1.0.1.zip",
       "sha256": "e6fe2a340c7ce4ba3522262ebe1b9435414792829efc4f7a773cfbd338ef4309",
-      "jsrInstall": "jsr:@dune/theme-fractal",
+      "jsrInstall": "jsr:@dune/theme-fractal@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-fractal",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -282,13 +282,13 @@
       "name": "theme-future-imp",
       "displayName": "@dune/theme-future-imp",
       "description": "Future Imperfect for Dune - a port of HTML5 UP Future Imperfect — a magazine blog dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/theme-future-imp",
+      "jsrInstall": "jsr:@dune/theme-future-imp@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-future-imp",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -298,7 +298,7 @@
       "name": "theme-gale",
       "displayName": "Gale",
       "description": "Gale - an original Dune theme, design inspired by AstroWind — a landing and blog dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "landing",
         "business",
@@ -308,7 +308,7 @@
       "screenshotUrl": "https://themes.getdune.org/gale/themes/gale/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/gale-v1.0.1/gale-1.0.1.zip",
       "sha256": "547e6d5ce847a5af3884a79e4a9f128576f2f482f8d3b92675d351a1c8a9d25f",
-      "jsrInstall": "jsr:@dune/theme-gale@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-gale@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-gale",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -318,7 +318,7 @@
       "name": "theme-helios",
       "displayName": "Helios",
       "description": "Helios for Dune - a port of HTML5 UP Helios — a carousel landing dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -328,7 +328,7 @@
       "screenshotUrl": "https://themes.getdune.org/helios/themes/helios/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/helios-v1.0.1/helios-1.0.1.zip",
       "sha256": "8c2106700ea03b107672f71694049c40d473e0bbe67a8f42c5f675be5b986b88",
-      "jsrInstall": "jsr:@dune/theme-helios",
+      "jsrInstall": "jsr:@dune/theme-helios@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-helios",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -338,7 +338,7 @@
       "name": "theme-herald",
       "displayName": "Herald",
       "description": "Herald - an original Dune theme, design inspired by Ghost Casper — a publication-style blog dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "blog",
         "publication",
@@ -348,7 +348,7 @@
       "screenshotUrl": "https://themes.getdune.org/herald/themes/herald/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/herald-v1.0.1/herald-1.0.1.zip",
       "sha256": "3066819a8710ddd3d22abf8fa3de796902462da6029a716f95f5c3b2fc3b7a36",
-      "jsrInstall": "jsr:@dune/theme-herald@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-herald@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-herald",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -358,7 +358,7 @@
       "name": "theme-hyperspace",
       "displayName": "Hyperspace",
       "description": "Hyperspace for Dune - a port of HTML5 UP Hyperspace — a sidebar landing dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -368,7 +368,7 @@
       "screenshotUrl": "https://themes.getdune.org/hyperspace/themes/hyperspace/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/hyperspace-v1.0.1/hyperspace-1.0.1.zip",
       "sha256": "3f42eb3531ee64d6349ede9d692ecde43bdec2c81a4a9d2051fc9a36b07590df",
-      "jsrInstall": "jsr:@dune/theme-hyperspace",
+      "jsrInstall": "jsr:@dune/theme-hyperspace@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-hyperspace",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -378,7 +378,7 @@
       "name": "theme-ink",
       "displayName": "Ink",
       "description": "Ink - an original Dune theme, design inspired by Ghost Attila — a long-form writing dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "blog",
         "writing",
@@ -389,7 +389,7 @@
       "screenshotUrl": "https://themes.getdune.org/ink/themes/ink/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/ink-v1.0.1/ink-1.0.1.zip",
       "sha256": "22eed125f43d2de4a711f992b956acd79f14e9a7abe01e18bd2f2d9baa06b21d",
-      "jsrInstall": "jsr:@dune/theme-ink@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-ink@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-ink",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -399,7 +399,7 @@
       "name": "theme-lens",
       "displayName": "Lens",
       "description": "Lens for Dune - a port of HTML5 UP Lens — a fullscreen thumbnail gallery dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "portfolio",
@@ -409,7 +409,7 @@
       "screenshotUrl": "https://themes.getdune.org/lens/themes/lens/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/lens-v1.0.1/lens-1.0.1.zip",
       "sha256": "232b46df8f41ea7fe8537acd637d96247bcfd864c2c3422e6656dd616b836287",
-      "jsrInstall": "jsr:@dune/theme-lens",
+      "jsrInstall": "jsr:@dune/theme-lens@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-lens",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -419,7 +419,7 @@
       "name": "theme-lucid",
       "displayName": "Lucid",
       "description": "Lucid - an original Dune theme, design inspired by Hugo Hextra — a modern docs dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "docs",
         "modern",
@@ -429,7 +429,7 @@
       "screenshotUrl": "https://themes.getdune.org/lucid/themes/lucid/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/lucid-v1.0.1/lucid-1.0.1.zip",
       "sha256": "de3affe3f6ca9c6037beebfd03915f71a3a96eef2728a4cfa73c679e869beb1f",
-      "jsrInstall": "jsr:@dune/theme-lucid@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-lucid@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-lucid",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -439,7 +439,7 @@
       "name": "theme-manual",
       "displayName": "Manual",
       "description": "Manual - an original Dune theme, design inspired by Just the Docs — a product documentation dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "docs",
         "product",
@@ -449,7 +449,7 @@
       "screenshotUrl": "https://themes.getdune.org/manual/themes/manual/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/manual-v1.0.1/manual-1.0.1.zip",
       "sha256": "fb2584ed2ff903bab2791efc53f397c52b6a4c6c181ca7efb0014c6fe68f1b13",
-      "jsrInstall": "jsr:@dune/theme-manual@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-manual@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-manual",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -459,7 +459,7 @@
       "name": "theme-massively",
       "displayName": "Massively",
       "description": "Massively for Dune - a port of HTML5 UP Massively — a hero blog dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "blog",
@@ -469,7 +469,7 @@
       "screenshotUrl": "https://themes.getdune.org/massively/themes/massively/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/massively-v1.0.1/massively-1.0.1.zip",
       "sha256": "434c8de879b3cf311a1815043cf0c77a3011562e02937c3b35c3ba0d6d2104e4",
-      "jsrInstall": "jsr:@dune/theme-massively",
+      "jsrInstall": "jsr:@dune/theme-massively@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-massively",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -479,7 +479,7 @@
       "name": "theme-miniport",
       "displayName": "Miniport",
       "description": "Miniport for Dune - a port of HTML5 UP Miniport — a minimal portfolio dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "portfolio",
@@ -489,7 +489,7 @@
       "screenshotUrl": "https://themes.getdune.org/miniport/themes/miniport/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/miniport-v1.0.1/miniport-1.0.1.zip",
       "sha256": "2950f401ed6382ef9cffcc74f70f964e4a24fa06743dbebf42363c8f1b67cb9a",
-      "jsrInstall": "jsr:@dune/theme-miniport",
+      "jsrInstall": "jsr:@dune/theme-miniport@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-miniport",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -499,7 +499,7 @@
       "name": "theme-nightfall",
       "displayName": "Nightfall",
       "description": "Nightfall - an original Dune theme, design inspired by Astro Starlight — a dark-first documentation dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "docs",
         "dark",
@@ -509,7 +509,7 @@
       "screenshotUrl": "https://themes.getdune.org/nightfall/themes/nightfall/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/nightfall-v1.0.1/nightfall-1.0.1.zip",
       "sha256": "2cab47f61889cb3e7210f38dd702cbc9ba1a482476244f990dc5c216a2b3de3d",
-      "jsrInstall": "jsr:@dune/theme-nightfall@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-nightfall@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-nightfall",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -519,7 +519,7 @@
       "name": "theme-oasis",
       "displayName": "Oasis",
       "description": "Oasis - an original Dune theme, design inspired by Hugo Blox — a landing and academic résumé dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "landing",
         "academic",
@@ -529,7 +529,7 @@
       "screenshotUrl": "https://themes.getdune.org/oasis/themes/oasis/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/oasis-v1.0.1/oasis-1.0.1.zip",
       "sha256": "2267f5e5b5911c2745a6c28d4e04cd8810558c28a8491e30e527fd79ad88fa0a",
-      "jsrInstall": "jsr:@dune/theme-oasis@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-oasis@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-oasis",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -539,7 +539,7 @@
       "name": "theme-papermod",
       "displayName": "PaperMod for Dune",
       "description": "PaperMod for Dune - a faithful port of Hugo PaperMod to a dune-theme.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "tags": [
         "blog",
         "minimal",
@@ -549,7 +549,7 @@
       "screenshotUrl": "https://themes.getdune.org/papermod/themes/papermod/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/papermod-v1.0.3/papermod-1.0.3.zip",
       "sha256": "30cfa999cdfafde4936b25e198bdad51c1e9e06d171e74cfed6e12aac057f864",
-      "jsrInstall": "jsr:@dune/theme-papermod@^1.0.2",
+      "jsrInstall": "jsr:@dune/theme-papermod@^1.0.3",
       "jsrUrl": "https://jsr.io/@dune/theme-papermod",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -559,7 +559,7 @@
       "name": "theme-paradigm-shift",
       "displayName": "Paradigm Shift",
       "description": "Paradigm Shift for Dune - a port of HTML5 UP Paradigm Shift — a responsive scroll landing dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -569,7 +569,7 @@
       "screenshotUrl": "https://themes.getdune.org/paradigm-shift/themes/paradigm-shift/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/paradigm-shift-v1.0.1/paradigm-shift-1.0.1.zip",
       "sha256": "e865b2f8c8abfe23d93bbe6538684cac72d588db1fb2e04da21043767d2fd228",
-      "jsrInstall": "jsr:@dune/theme-paradigm-shift",
+      "jsrInstall": "jsr:@dune/theme-paradigm-shift@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-paradigm-shift",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -579,7 +579,7 @@
       "name": "theme-parallelism",
       "displayName": "Parallelism",
       "description": "Parallelism for Dune - a port of HTML5 UP Parallelism — a horizontal masonry portfolio dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "portfolio",
@@ -589,7 +589,7 @@
       "screenshotUrl": "https://themes.getdune.org/parallelism/themes/parallelism/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/parallelism-v1.0.1/parallelism-1.0.1.zip",
       "sha256": "2717ffe61e75561884cad73a4d926581a576f321f12f3d0e12b195dcbde725ca",
-      "jsrInstall": "jsr:@dune/theme-parallelism",
+      "jsrInstall": "jsr:@dune/theme-parallelism@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-parallelism",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -599,7 +599,7 @@
       "name": "theme-phantom",
       "displayName": "Phantom",
       "description": "Phantom for Dune - a port of HTML5 UP Phantom — a tile grid blog dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "blog",
@@ -609,7 +609,7 @@
       "screenshotUrl": "https://themes.getdune.org/phantom/themes/phantom/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/phantom-v1.0.1/phantom-1.0.1.zip",
       "sha256": "74ef22fe1fb2e2c7f78e1b639eb05e7b011fbd37c1bcd6ab3ea0e2eb7f0f0f20",
-      "jsrInstall": "jsr:@dune/theme-phantom",
+      "jsrInstall": "jsr:@dune/theme-phantom@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-phantom",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -619,7 +619,7 @@
       "name": "theme-photon",
       "displayName": "Photon",
       "description": "Photon for Dune - a port of HTML5 UP Photon — a single-page portfolio dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "portfolio",
@@ -629,7 +629,7 @@
       "screenshotUrl": "https://themes.getdune.org/photon/themes/photon/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/photon-v1.0.1/photon-1.0.1.zip",
       "sha256": "82f1c7bacc98810827e2456116c3c447b9589db6c5886816a1fc5441cbf86e87",
-      "jsrInstall": "jsr:@dune/theme-photon",
+      "jsrInstall": "jsr:@dune/theme-photon@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-photon",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -639,7 +639,7 @@
       "name": "theme-salon",
       "displayName": "Salon",
       "description": "Salon - an original Dune theme, design inspired by Ghost Liebling — a magazine-style blog dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "blog",
         "magazine",
@@ -649,7 +649,7 @@
       "screenshotUrl": "https://themes.getdune.org/salon/themes/salon/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/salon-v1.0.1/salon-1.0.1.zip",
       "sha256": "53fd83514e86ba9a67f8aa196c536e6475ef2a1d657e05edbd54484a61d346f5",
-      "jsrInstall": "jsr:@dune/theme-salon@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-salon@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-salon",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -659,7 +659,7 @@
       "name": "theme-sirocco",
       "displayName": "Sirocco",
       "description": "Sirocco - an original Dune theme, design inspired by hugo-PaperMod — a fast, minimalist blog dune-theme.",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "tags": [
         "blog",
         "minimal",
@@ -669,7 +669,7 @@
       "screenshotUrl": "https://themes.getdune.org/sirocco/themes/sirocco/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/sirocco-v1.2.2/sirocco-1.2.2.zip",
       "sha256": "51c85fffb914cd6b92d848cb0104670c07022bc6b09a096b1754caf56e6b190c",
-      "jsrInstall": "jsr:@dune/theme-sirocco@^1.2.1",
+      "jsrInstall": "jsr:@dune/theme-sirocco@^1.2.2",
       "jsrUrl": "https://jsr.io/@dune/theme-sirocco",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -679,7 +679,7 @@
       "name": "theme-solid-state",
       "displayName": "Solid State",
       "description": "Solid State for Dune - a port of HTML5 UP Solid State — a business landing dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -689,7 +689,7 @@
       "screenshotUrl": "https://themes.getdune.org/solid-state/themes/solid-state/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/solid-state-v1.0.1/solid-state-1.0.1.zip",
       "sha256": "8a13aa89edebfd35830e95dad180223ae4ddd6417526a92964e1a9da720981a4",
-      "jsrInstall": "jsr:@dune/theme-solid-state",
+      "jsrInstall": "jsr:@dune/theme-solid-state@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-solid-state",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -699,7 +699,7 @@
       "name": "theme-spectral",
       "displayName": "Spectral",
       "description": "Spectral for Dune - a port of HTML5 UP Spectral — an event landing dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -709,7 +709,7 @@
       "screenshotUrl": "https://themes.getdune.org/spectral/themes/spectral/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/spectral-v1.0.1/spectral-1.0.1.zip",
       "sha256": "fa680510c3f6d1d86cfdfc048f3a8ff6211b24c81a4d842f224bbac04a258b3e",
-      "jsrInstall": "jsr:@dune/theme-spectral",
+      "jsrInstall": "jsr:@dune/theme-spectral@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-spectral",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -719,7 +719,7 @@
       "name": "theme-starlight",
       "displayName": "Starlight for Dune",
       "description": "Starlight for Dune - a faithful port of Astro Starlight to a dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "docs",
         "modern",
@@ -729,7 +729,7 @@
       "screenshotUrl": "https://themes.getdune.org/starlight/themes/starlight/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/starlight-v1.0.1/starlight-1.0.1.zip",
       "sha256": "297e041a53261e8eeeadc7caa7030034c91b9e331146cc14ae26124fa3b82c8d",
-      "jsrInstall": "jsr:@dune/theme-starlight@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-starlight@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-starlight",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -739,7 +739,7 @@
       "name": "theme-story",
       "displayName": "Story",
       "description": "Story for Dune - a port of HTML5 UP Story — a scroll narrative landing dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -749,7 +749,7 @@
       "screenshotUrl": "https://themes.getdune.org/story/themes/story/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/story-v1.0.1/story-1.0.1.zip",
       "sha256": "54a9e6cf6c12f6da3081587c7975961b55cad7ec84883aca0c973e5ef6c932b9",
-      "jsrInstall": "jsr:@dune/theme-story",
+      "jsrInstall": "jsr:@dune/theme-story@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-story",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -759,7 +759,7 @@
       "name": "theme-strata",
       "displayName": "Strata",
       "description": "Strata for Dune - a port of HTML5 UP Strata — a portfolio dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "portfolio",
@@ -769,7 +769,7 @@
       "screenshotUrl": "https://themes.getdune.org/strata/themes/strata/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/strata-v1.0.1/strata-1.0.1.zip",
       "sha256": "ee1e3c389e19c096cb25ca2c4af33207884a1f778a98aa603ae144d67539fc51",
-      "jsrInstall": "jsr:@dune/theme-strata",
+      "jsrInstall": "jsr:@dune/theme-strata@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-strata",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -779,7 +779,7 @@
       "name": "theme-striped",
       "displayName": "Striped",
       "description": "Striped for Dune - a port of HTML5 UP Striped — a responsive sidebar blog dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "blog",
@@ -789,7 +789,7 @@
       "screenshotUrl": "https://themes.getdune.org/striped/themes/striped/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/striped-v1.0.1/striped-1.0.1.zip",
       "sha256": "8550daf03b6ec6502ede2e81050664ba65372b0bb32378e8fdab634402a06549",
-      "jsrInstall": "jsr:@dune/theme-striped",
+      "jsrInstall": "jsr:@dune/theme-striped@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-striped",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -799,7 +799,7 @@
       "name": "theme-syntax",
       "displayName": "Syntax",
       "description": "Syntax - an original Dune theme, design inspired by Jekyll Chirpy — a technical blog dune-theme.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "tags": [
         "blog",
         "tech",
@@ -809,7 +809,7 @@
       "screenshotUrl": "https://themes.getdune.org/syntax/themes/syntax/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/syntax-v1.0.1/syntax-1.0.1.zip",
       "sha256": "a9f6a01a27291b21d7c5ced12c6e9da3eeb557c77e7ec595160b1c5cd39c18ea",
-      "jsrInstall": "jsr:@dune/theme-syntax@^1.0.0",
+      "jsrInstall": "jsr:@dune/theme-syntax@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-syntax",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -819,7 +819,7 @@
       "name": "theme-twenty",
       "displayName": "Twenty",
       "description": "Twenty for Dune - a port of HTML5 UP Twenty — a multipurpose landing dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "landing",
@@ -829,7 +829,7 @@
       "screenshotUrl": "https://themes.getdune.org/twenty/themes/twenty/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/twenty-v1.0.1/twenty-1.0.1.zip",
       "sha256": "7393d3c4b3a1b8f374d7f5b1d47521eeba5a5d58d40a5a578d15a27a62485fb3",
-      "jsrInstall": "jsr:@dune/theme-twenty",
+      "jsrInstall": "jsr:@dune/theme-twenty@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-twenty",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -839,7 +839,7 @@
       "name": "theme-txt",
       "displayName": "TXT",
       "description": "TXT for Dune - a port of HTML5 UP TXT — a text-forward portfolio dune-theme.",
-      "version": null,
+      "version": "1.0.1",
       "tags": [
         "html5up",
         "portfolio",
@@ -849,7 +849,7 @@
       "screenshotUrl": "https://themes.getdune.org/txt/themes/txt/static/screenshot.png",
       "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/txt-v1.0.1/txt-1.0.1.zip",
       "sha256": "9d5e7a8d3c9a4fc89ac309e27537c6758978ecb49e622e8a00a9da94e3799e61",
-      "jsrInstall": "jsr:@dune/theme-txt",
+      "jsrInstall": "jsr:@dune/theme-txt@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-txt",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
