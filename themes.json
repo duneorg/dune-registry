@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T12:02:24.042Z",
+  "updatedAt": "2026-08-02T13:17:06.717Z",
   "themes": [
     {
       "scope": "dune",
@@ -280,14 +280,18 @@
     {
       "scope": "dune",
       "name": "theme-future-imp",
-      "displayName": "@dune/theme-future-imp",
+      "displayName": "Future Imperfect",
       "description": "Future Imperfect for Dune - a port of HTML5 UP Future Imperfect — a magazine blog dune-theme.",
       "version": "1.0.1",
-      "tags": [],
-      "demoUrl": null,
-      "screenshotUrl": null,
-      "downloadUrl": null,
-      "sha256": null,
+      "tags": [
+        "html5up",
+        "blog",
+        "responsive"
+      ],
+      "demoUrl": "https://themes.getdune.org/future-imperfect",
+      "screenshotUrl": "https://themes.getdune.org/future-imperfect/themes/future-imperfect/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/future-imperfect-v1.0.1/future-imperfect-1.0.1.zip",
+      "sha256": "96c604f1cf8552e9db5f6aa696734edc87ed63a2e729c8588c9420d1b1264002",
       "jsrInstall": "jsr:@dune/theme-future-imp@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-future-imp",
       "githubUrl": "https://github.com/duneorg/dune-themes",
