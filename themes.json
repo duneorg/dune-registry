@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T13:17:06.717Z",
+  "updatedAt": "2026-08-02T15:40:41.176Z",
   "themes": [
     {
       "scope": "dune",
@@ -184,15 +184,19 @@
     {
       "scope": "dune",
       "name": "theme-dune-minimal",
-      "displayName": "@dune/theme-dune-minimal",
+      "displayName": "Dune Minimal",
       "description": "Minimal - a Dune base theme, which any other dune-theme can optionally inherit from.",
-      "version": "1.0.0",
-      "tags": [],
-      "demoUrl": null,
-      "screenshotUrl": null,
-      "downloadUrl": null,
-      "sha256": null,
-      "jsrInstall": "jsr:@dune/theme-dune-minimal@^1.0.0",
+      "version": "1.0.1",
+      "tags": [
+        "base",
+        "minimal",
+        "inspired"
+      ],
+      "demoUrl": "https://themes.getdune.org/dune-minimal",
+      "screenshotUrl": "https://themes.getdune.org/dune-minimal/themes/dune-minimal/static/screenshot.png",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/dune-minimal-v1.0.1/dune-minimal-1.0.1.zip",
+      "sha256": "f6cdded0eb662dc5f5ace2b87e09f618cafba87bf29dc2c123968b7eeb173463",
+      "jsrInstall": "jsr:@dune/theme-dune-minimal@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-dune-minimal",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
