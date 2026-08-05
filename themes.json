@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T07:47:52.419Z",
+  "updatedAt": "2026-08-05T07:49:12.651Z",
   "themes": [
     {
       "scope": "dune",
@@ -245,7 +245,7 @@
       "scope": "dune",
       "name": "theme-forty",
       "displayName": "Forty",
-      "description": "",
+      "description": "Forty for Dune - a port of HTML5 UP Forty — a tile-based landing dune-theme.",
       "version": "1.0.1",
       "tags": [
         "html5up",
