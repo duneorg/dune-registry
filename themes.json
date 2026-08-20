@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T07:49:12.651Z",
+  "updatedAt": "2026-08-20T22:41:39.063Z",
   "themes": [
     {
       "scope": "dune",
@@ -114,8 +114,8 @@
       ],
       "demoUrl": "https://themes.getdune.org/blox",
       "screenshotUrl": "https://themes.getdune.org/blox/themes/blox/static/screenshot.png",
-      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/blox-v1.0.1/blox-1.0.1.zip",
-      "sha256": "d887254a86fbc263b70270bb3645464d6e9b55bcc17f0b3cafcbfeef98866bbf",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/blox-v1.0.2/blox-1.0.2.zip",
+      "sha256": "af1b0eec15b71a6522117cca3dda724c13e7db6a133289488a48d092260bd82d",
       "jsrInstall": "jsr:@dune/theme-blox@^1.0.1",
       "jsrUrl": "https://jsr.io/@dune/theme-blox",
       "githubUrl": "https://github.com/duneorg/dune-themes",
