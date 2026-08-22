@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-08-16T13:48:44.727Z",
+  "updatedAt": "2026-08-22T05:43:33.654Z",
   "plugins": [
     {
       "scope": "dune",
       "name": "plugin-admin",
       "displayName": "@dune/plugin-admin",
       "description": "Admin Plug-in for Dune CMS https://jsr.io/@dune/core (dune-plugin)",
-      "version": "1.1.5",
+      "version": "2.0.0",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-admin@^1.1.5",
+      "jsrInstall": "jsr:@dune/plugin-admin@^2.0.0",
       "jsrUrl": "https://jsr.io/@dune/plugin-admin",
       "githubUrl": "https://github.com/duneorg/plugin-admin",
       "source": "first-party"
@@ -22,13 +22,13 @@
       "name": "plugin-inline-edit",
       "displayName": "@dune/plugin-inline-edit",
       "description": "Plug-in providing inline content editing for Dune CMS https://jsr.io/@dune/core (dune-plugin)",
-      "version": "2.1.8",
+      "version": "2.2.0",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-inline-edit@^2.1.8",
+      "jsrInstall": "jsr:@dune/plugin-inline-edit@^2.2.0",
       "jsrUrl": "https://jsr.io/@dune/plugin-inline-edit",
       "githubUrl": "https://github.com/duneorg/plugin-inline-edit",
       "source": "first-party"
