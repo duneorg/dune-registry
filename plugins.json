@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-08-27T16:32:13.468Z",
+  "updatedAt": "2026-08-31T07:51:16.210Z",
   "plugins": [
     {
       "scope": "dune",
       "name": "plugin-admin",
       "displayName": "@dune/plugin-admin",
       "description": "Admin Plug-in for Dune CMS https://jsr.io/@dune/core (dune-plugin)",
-      "version": "2.1.3",
+      "version": "3.0.0",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-admin@^2.1.3",
+      "jsrInstall": "jsr:@dune/plugin-admin@^3.0.0",
       "jsrUrl": "https://jsr.io/@dune/plugin-admin",
       "githubUrl": "https://github.com/duneorg/plugin-admin",
       "source": "first-party"
