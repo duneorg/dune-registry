@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T05:48:47.289Z",
+  "updatedAt": "2026-10-15T09:57:12.734Z",
   "themes": [
     {
       "scope": "dune",
@@ -106,7 +106,7 @@
       "name": "theme-blox",
       "displayName": "Hugo Blox for Dune",
       "description": "Hugo Blox for Dune - a faithful port of Hugo Blox to a dune-theme.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "tags": [
         "landing",
         "academic",
@@ -114,9 +114,9 @@
       ],
       "demoUrl": "https://themes.getdune.org/blox",
       "screenshotUrl": "https://themes.getdune.org/blox/themes/blox/static/screenshot.png",
-      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/blox-v1.0.2/blox-1.0.2.zip",
-      "sha256": "af1b0eec15b71a6522117cca3dda724c13e7db6a133289488a48d092260bd82d",
-      "jsrInstall": "jsr:@dune/theme-blox@^1.0.2",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/blox-v1.0.3/blox-1.0.3.zip",
+      "sha256": "48051d685cf3593cdae7249936dd340f6b67c147c2f9c971e18f614b28cc08f0",
+      "jsrInstall": "jsr:@dune/theme-blox@^1.0.3",
       "jsrUrl": "https://jsr.io/@dune/theme-blox",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"
@@ -126,7 +126,7 @@
       "name": "theme-book",
       "displayName": "Hugo Book for Dune",
       "description": "Hugo Book for Dune - a faithful port of Hugo Book to a dune-theme.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "tags": [
         "docs",
         "sidebar",
@@ -134,9 +134,9 @@
       ],
       "demoUrl": "https://themes.getdune.org/book",
       "screenshotUrl": "https://themes.getdune.org/book/themes/book/static/screenshot.png",
-      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/book-v1.0.2/book-1.0.2.zip",
-      "sha256": "026f99d610915ee001903c1eea5cac2c4df4be2a84e5ca7e96cd18eabf8e25df",
-      "jsrInstall": "jsr:@dune/theme-book@^1.0.2",
+      "downloadUrl": "https://github.com/duneorg/dune-themes/releases/download/book-v1.0.3/book-1.0.3.zip",
+      "sha256": "582431f4ba3d41da34d8d02ccdff5adc61bac2b2e932e07b7321089055631923",
+      "jsrInstall": "jsr:@dune/theme-book@^1.0.3",
       "jsrUrl": "https://jsr.io/@dune/theme-book",
       "githubUrl": "https://github.com/duneorg/dune-themes",
       "source": "first-party"

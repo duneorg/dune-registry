@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-08T12:03:16.262Z",
+  "updatedAt": "2026-10-15T09:57:12.732Z",
   "plugins": [
     {
       "scope": "dune",
       "name": "plugin-admin",
       "displayName": "@dune/plugin-admin",
       "description": "Admin Plug-in for Dune CMS https://jsr.io/@dune/core (dune-plugin)",
-      "version": "3.1.1",
+      "version": "3.1.2",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-admin@^3.1.1",
+      "jsrInstall": "jsr:@dune/plugin-admin@^3.1.2",
       "jsrUrl": "https://jsr.io/@dune/plugin-admin",
       "githubUrl": "https://github.com/duneorg/plugin-admin",
       "source": "first-party"
@@ -38,13 +38,13 @@
       "name": "plugin-meilisearch",
       "displayName": "@dune/plugin-meilisearch",
       "description": "Meilisearch-backed search engine for Dune CMS sites (dune-plugin)",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "tags": [],
       "demoUrl": null,
       "screenshotUrl": null,
       "downloadUrl": null,
       "sha256": null,
-      "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.2.3",
+      "jsrInstall": "jsr:@dune/plugin-meilisearch@^1.2.4",
       "jsrUrl": "https://jsr.io/@dune/plugin-meilisearch",
       "githubUrl": "https://github.com/duneorg/plugin-meilisearch",
       "source": "first-party"
