@@ -24,6 +24,8 @@
  * site visitor.
  */
 
+import { cleanHttpsUrl, cleanText, cleanVersion, isGithubName, isJsrName } from "./sanitize.ts";
+
 const ALGOLIA_APP_ID = "NM4F4ZN5Z1";
 const ALGOLIA_SEARCH_KEY = "f1c9c5e7309104ac81f7d333036fb0ad";
 const ALGOLIA_INDEX = "prod_packages";
@@ -93,31 +95,51 @@ async function enrichPackage(p: JsrPackage): Promise<JsrPackage> {
   }
 }
 
-function toEntry(p: JsrPackage, source: "first-party" | "discovered"): RegistryEntry {
+/** GitHub URL for a package's linked repository, or null when absent or malformed. */
+function githubUrlFor(repo: { owner: string; name: string } | null | undefined): string | null {
+  return repo && isGithubName(repo.owner) && isGithubName(repo.name)
+    ? `https://github.com/${repo.owner}/${repo.name}`
+    : null;
+}
+
+/**
+ * Registry entry for a JSR package, or null when its scope or name isn't a
+ * valid JSR name. Everything free-form is reduced to plain text and every
+ * URL is rebuilt from validated parts (see sanitize.ts).
+ */
+function toEntry(p: JsrPackage, source: "first-party" | "discovered"): RegistryEntry | null {
+  if (!isJsrName(p.scope) || !isJsrName(p.name)) {
+    console.warn(`skipping a package with an invalid scope or name`);
+    return null;
+  }
+  const version = cleanVersion(p.latestVersion);
   return {
     scope: p.scope,
     name: p.name,
     displayName: `@${p.scope}/${p.name}`,
-    description: p.description ?? "",
-    version: p.latestVersion,
+    description: cleanText(p.description),
+    version,
     tags: [],
     demoUrl: null,
     screenshotUrl: null,
     downloadUrl: null,
     sha256: null,
-    jsrInstall: p.latestVersion ? `jsr:@${p.scope}/${p.name}@^${p.latestVersion}` : `jsr:@${p.scope}/${p.name}`,
+    jsrInstall: version ? `jsr:@${p.scope}/${p.name}@^${version}` : `jsr:@${p.scope}/${p.name}`,
     jsrUrl: `https://jsr.io/@${p.scope}/${p.name}`,
-    githubUrl: p.githubRepository
-      ? `https://github.com/${p.githubRepository.owner}/${p.githubRepository.name}`
-      : null,
+    githubUrl: githubUrlFor(p.githubRepository),
     source,
   };
+}
+
+function present<T>(value: T | null): value is T {
+  return value !== null;
 }
 
 async function buildPlugins(scopePackages: JsrPackage[]): Promise<RegistryEntry[]> {
   const firstParty = scopePackages
     .filter((p) => p.name.startsWith("plugin-"))
-    .map((p) => toEntry(p, "first-party"));
+    .map((p) => toEntry(p, "first-party"))
+    .filter(present);
 
   const firstPartyKeys = new Set(firstParty.map((e) => `${e.scope}/${e.name}`));
   const discoveredRaw = await algoliaSearch("dune-plugin");
@@ -126,7 +148,8 @@ async function buildPlugins(scopePackages: JsrPackage[]): Promise<RegistryEntry[
     const key = `${hit.scope}/${hit.name}`;
     if (firstPartyKeys.has(key)) continue; // first-party already covered structurally
     if (!(hit.description ?? "").toLowerCase().includes("dune-plugin")) continue;
-    discovered.push(toEntry(await enrichPackage(hit), "discovered"));
+    const entry = toEntry(await enrichPackage(hit), "discovered");
+    if (entry) discovered.push(entry);
   }
 
   return [...firstParty, ...discovered];
@@ -165,28 +188,24 @@ async function buildThemes(scopePackages: JsrPackage[]): Promise<RegistryEntry[]
     }),
   );
 
-  const firstParty: RegistryEntry[] = liveThemePackages.map((p) => {
+  const firstParty: RegistryEntry[] = liveThemePackages.map((p): RegistryEntry | null => {
+    const base = toEntry(p, "first-party");
+    if (!base) return null;
     const slug = p.name.replace(/^theme-/, "");
     const meta = byPackageName.get(p.name);
+    const metaTags: unknown[] = Array.isArray(meta?.tags) ? meta.tags : [];
     return {
-      scope: p.scope,
-      name: p.name,
-      displayName: meta?.name ?? `@${p.scope}/${p.name}`,
-      description: p.description ?? meta?.description ?? "",
-      version: p.latestVersion,
-      tags: meta?.tags ?? [],
-      demoUrl: meta?.demoUrl ?? null,
-      screenshotUrl: meta?.screenshotUrl ?? null,
-      downloadUrl: meta?.downloadUrl ?? null,
-      sha256: meta?.sha256 || null,
-      jsrInstall: p.latestVersion ? `jsr:@${p.scope}/${p.name}@^${p.latestVersion}` : `jsr:@${p.scope}/${p.name}`,
-      jsrUrl: `https://jsr.io/@${p.scope}/${p.name}`,
-      githubUrl: p.githubRepository
-        ? `https://github.com/${p.githubRepository.owner}/${p.githubRepository.name}`
-        : `https://github.com/duneorg/dune-themes/tree/main/packages/theme-${slug}`,
-      source: "first-party" as const,
+      ...base,
+      displayName: cleanText(meta?.name, 100) || base.displayName,
+      description: cleanText(p.description ?? meta?.description),
+      tags: metaTags.map((t) => cleanText(t, 40)).filter(Boolean),
+      demoUrl: cleanHttpsUrl(meta?.demoUrl),
+      screenshotUrl: cleanHttpsUrl(meta?.screenshotUrl),
+      downloadUrl: cleanHttpsUrl(meta?.downloadUrl),
+      sha256: typeof meta?.sha256 === "string" && /^[0-9a-f]{64}$/.test(meta.sha256) ? meta.sha256 : null,
+      githubUrl: base.githubUrl ?? `https://github.com/duneorg/dune-themes/tree/main/packages/theme-${slug}`,
     };
-  });
+  }).filter(present);
 
   const firstPartyKeys = new Set(firstParty.map((e) => `${e.scope}/${e.name}`));
   const discoveredRaw = await algoliaSearch("dune-theme");
@@ -195,7 +214,8 @@ async function buildThemes(scopePackages: JsrPackage[]): Promise<RegistryEntry[]
     const key = `${hit.scope}/${hit.name}`;
     if (firstPartyKeys.has(key)) continue;
     if (!(hit.description ?? "").toLowerCase().includes("dune-theme")) continue;
-    discovered.push(toEntry(await enrichPackage(hit), "discovered"));
+    const entry = toEntry(await enrichPackage(hit), "discovered");
+    if (entry) discovered.push(entry);
   }
 
   return [...firstParty, ...discovered];
