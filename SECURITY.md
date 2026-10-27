@@ -12,20 +12,20 @@ you and the maintainers can see.
 ## What is in scope
 
 This repository holds the data behind the plugin and theme library on
-getdune.org (`plugins.json`, `themes.json`) and the scheduled job that builds
-it from JSR. Things worth reporting:
+getdune.org (`plugins.json`, `themes.json`) and the scheduled job that builds it
+from JSR. Things worth reporting:
 
-- a way for a package listed here to put content into the data that could
-  cause harm where it is displayed (markup or script in a description or name,
-  unsafe links),
+- a way for a package listed here to put content into the data that could cause
+  harm where it is displayed (markup or script in a description or name, unsafe
+  links),
 - a way to get a package listed as first-party or verified that isn't,
 - a way to change a package's name, version or install command in the data
   without owning the package,
-- a problem in the refresh workflow that would let someone change what the
-  job writes or where it writes it.
+- a problem in the refresh workflow that would let someone change what the job
+  writes or where it writes it.
 
-Include the data or package involved and how you reproduced it. You don't need
-a complete write-up or a fix.
+Include the data or package involved and how you reproduced it. You don't need a
+complete write-up or a fix.
 
 ## What to expect
 
