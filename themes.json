@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T09:57:12.734Z",
+  "updatedAt": "2026-11-06T12:58:14.798Z",
   "themes": [
     {
       "scope": "dune",
@@ -39,6 +39,22 @@
       "jsrInstall": "jsr:@dune/theme-alpha@^1.0.4",
       "jsrUrl": "https://jsr.io/@dune/theme-alpha",
       "githubUrl": "https://github.com/duneorg/dune-themes",
+      "source": "first-party"
+    },
+    {
+      "scope": "dune",
+      "name": "theme-api",
+      "displayName": "@dune/theme-api",
+      "description": "Type contract for Dune CMS themes",
+      "version": null,
+      "tags": [],
+      "demoUrl": null,
+      "screenshotUrl": null,
+      "downloadUrl": null,
+      "sha256": null,
+      "jsrInstall": "jsr:@dune/theme-api",
+      "jsrUrl": "https://jsr.io/@dune/theme-api",
+      "githubUrl": "https://github.com/duneorg/theme-api",
       "source": "first-party"
     },
     {
